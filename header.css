@@ -1,0 +1,187 @@
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(235, 233, 233);
+    z-index: 100;
+    /* border: 2px solid; */
+}
+.start-div{
+    /* background-color: lightblue; */
+    width: 150px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    
+    
+}
+.left-icon {
+    height: 25px;
+
+}
+.left-icon-b{
+    height: 25px;
+    margin-left: 8px;
+
+}
+
+.img-icon{
+    height: 35px;
+    border-radius: 25px;
+    
+}
+
+
+.middle-div{
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 40px;
+    max-width: 500px;
+    height: 50px;
+}
+
+.search-bar{
+    font-size: 16px;
+    height: 36px;
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    border-color: rgb(192, 192, 192);
+    width: 0;
+
+    
+    
+}
+.search-btn{
+    height: 36px;
+    width: 66px;
+    cursor: pointer;
+    border-top-right-radius: 75px; 
+    border-bottom-right-radius: 75px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;   
+    margin-left: -1px;
+    position: relative;
+}
+
+.search-btn div{
+    background-color: rgb(82, 80, 80);
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.search-btn:hover div{
+    opacity: 1;
+}
+
+.voice-btn div{
+    background-color: rgb(82, 80, 80);
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.voice-btn:hover div{
+    opacity: 1;
+}
+.video-creation .msg{
+    background-color: rgb(82, 80, 80);
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.video-creation:hover .msg{
+    opacity: 1;
+}
+.notice-div .msg{
+    background-color: rgb(82, 80, 80);
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    position: absolute;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.notice-div:hover .msg{
+    opacity: 1;
+}
+
+
+.voice-btn{
+    height: 36px;
+    width: 37px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.end-div{
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    /* background-color: lightgreen;  */
+    width: 120px;
+    justify-content: space-between;
+    margin-right: 20px;   
+    flex-shrink: 0;
+}
+
+.create-video, .notification, .img-icon{
+    cursor: pointer;
+}
+.notice-div{
+    position: relative;
+}
+.notice{
+    background-color: rgb(209, 7, 7);
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    position: absolute;
+    right: -3px;
+    top: -2px;
+}

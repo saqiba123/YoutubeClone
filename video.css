@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+ padding-top: 75px;
+ 
+ padding-right: 22px;
+ padding-bottom: 130px;
+ background-color: rgb(247, 246, 246);
+   
+}
+
+
+.major{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding-left: 95px;
+}
+
+@media (max-width:1200px){
+    .major{
+     
+        grid-template-columns: 1fr 1fr;
+       
+
+    }
+}
+@media (max-width:800px){
+    .major{
+     
+        grid-template-columns: 1fr;
+       
+
+    }
+}
+@media (min-width:1400px){
+    .major{
+     
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+
+    }
+}
+/* @media (max-width:1000px){
+    .major{
+     
+        grid-template-columns:  1fr 1fr;
+       
+
+    }
+} */
+
+
+/* .div-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+} */
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* .horizontal-one, .horizontal-two{
+    display: inline-block;
+    vertical-align: top;
+    background-color: gray;
+} */
+.vertical-two{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+/* .horizontal-one, .horizontal-two{
+    display: inline-block; */
+    /* vertical-align: top; */
+    /* background-color: gray;
+} */
+.vertical-one{
+    margin-bottom: 10px;
+    position: relative;
+}
+.logo-img{
+    border-radius: 50px;
+    width: 40px;
+}
+.video-img{
+    border-radius: 7px;
+    width: 100%;
+    /* position: relative; */
+}
+
+.video-timer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+    padding: 4px 7px;
+    border-radius: 3px;
+    right: 5px;
+    bottom: 8px;
+}
+
+
+
+#video-title, #channel-name, #channel-info{
+    font-family: Roboto;
+    width: 300px;
+    
+} 
+#channel-name, #channel-info{
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+
+}
+#channel-name{
+    margin-bottom: 8px;
+}
+
+#video-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+
+/* .video-img, .search-bar{
+    display: block;
+} */
+
+
+/* #channel-name, #channel-info{
+    display: inline-block;
+} */
